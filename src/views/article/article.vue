@@ -21,7 +21,7 @@
 				</Form>
 				<div style="min-height: 600px;height: calc(100vh - 145px);">
 					<button ref="diy" type="button" @click="diyMore" class="op-icon ivu-icon ivu-icon-md-code" aria-hidden="true" title="更多"></button>
-					<mavon-editor ref="md" @imgAdd="imgAdd" :boxShadow="false" :toolbars="toolbars" v-model="dataForm.markdown_content" style="height:100%" :tabSize=4>
+					<mavon-editor ref="md" @imgAdd="imgAdd" :boxShadow="false" v-model="dataForm.markdown_content" style="height:100%" :tabSize=4>
 					</mavon-editor>
 				</div>
 				</Col>
