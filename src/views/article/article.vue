@@ -141,7 +141,7 @@ export default {
 			this.$refs.md.insertText(this.$refs.md.getTextareaDom(), {
 				prefix: "",
 				subfix: "",
-				str: "<!--more-->"
+				str: "<!-- more -->"
 			});
 		},
 		imgAdd(pos, $file) {
