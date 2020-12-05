@@ -66,7 +66,7 @@ export default {
 							});
 						} else {
 							this.reload();
-							this.$Message.error(resp.msg);
+							this.$Message.warning("登录失败，请核对用户名/密码！");
 						}
 					});
 				}
